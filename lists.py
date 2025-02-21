@@ -19,5 +19,11 @@ print(f"b={b}")
 b[4][0]= 4
 print(b)
 print(l3)
+print(len(b))
+print(l1[3])
+l1.extend(l3)
+print(l1)
+
+
 
 
