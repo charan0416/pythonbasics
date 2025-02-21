@@ -13,5 +13,11 @@ print(l3)
 x = l3.copy()
 print(x)
 #shallowcopy and deepcopy
+import copy
+b = copy.deepcopy(l3)
+print(f"b={b}")
+b[4][0]= 4
+print(b)
+print(l3)
 
 
