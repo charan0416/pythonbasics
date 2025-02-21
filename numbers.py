@@ -13,3 +13,4 @@ z = 2.0
 print(int(z))
 print(type(z))
 print(type(x))
+print(x)
